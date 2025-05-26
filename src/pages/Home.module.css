@@ -1,0 +1,46 @@
+.body{
+    background-image: linear-gradient(rgb(255,255,180), lightseagreen);
+    height: 100vh;
+    width:100vw;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.btn{
+    border-radius: 5px;
+    background-color:white;
+    color: blue;
+    border: 3px solid blue;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:650px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 1px 0px 1px blue;;
+}
+.btn:hover {
+    transform: scale(0.9);
+    box-shadow: 1px 1px 0px 1px blueviolet;
+    background-color: orangered;
+}
+
